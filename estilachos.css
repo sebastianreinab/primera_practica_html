@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+header {
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20px;
+}
+.container {
+    display: flex;
+}
+.padre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.hijo_1 {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border-radius: 15px;
+    position: relative;
+}
+.hijo_2 {
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+}
+.hijo_3 {
+    background-color: brown;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+}
+video {
+    align-items: center;
+}
