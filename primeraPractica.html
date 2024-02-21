@@ -5,20 +5,49 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='estilosPP.css'>
 </head>
 <body>
-    <img src="assets/Homero-simpson.ong.webp" >
-    <h2>Sebastián Reina Balcázar</h2>
-    <p>lore ipsumlore ipsumlore ipsumlore ipsumlore ipsumlore ipsumlore ipsumlore ipsumlore ipsumlore ipsumlore ipsum
-        lore ipsumlore ipsumlore ipsumlore ipsumlore ipsumlore ipsumlore ipsumlore ipsumlore ipsumlore ipsum
-        lore ipsumlore ipsumlore ipsumlore ipsumlore ipsumlore ipsumlore ipsumlore ipsumlore ipsumlore ipsum
-    </p>
-    <h2>Hobbies</h2>
-    <video controls>
-        <source src="" type="video/mp4">
-    </video>
-    
+    <div class="divi_prin">
+        <img id="img_ho" src="assets/Homero-simpson.ong.webp" >
+        <h2>Sebastián Reina Balcázar</h2><br>
+        <h2>Hobbies</h2>
+        <p>Soy Sebastián Reina Balcázar. Me gustan los videojuegos, jugar footbal, ver tv,
+            el anime y el manga.
+        </p>
+        <video controls>
+            <source src="assets/mov_bbb.mp4" type="video/mp4">
+        </video><br>
+        <audio controls autoplay    >
+            <source src="assets/Pokemon Blanche & Noire Musique - Port Yoneuve.mp3">
+        </audio>
+    </div>
+    <div class="formulario">
+        <fieldset>
+            <legend>Info contacto:</legend>
+            <form>
+                <label>Nombre :</label><input type="text" id="idNombre"><br>
+                <label>Email  :</label><input type="text" id="idNombre"><br>
+                <label>Motivo contacto:</label><br>
+                <textarea></textarea><br>
+                <button>enviar</button>
+            </form>
+        </fieldset>
+    </div>
+    <div class="tabala">
+        <table border="2">
+            <tr>
+                <td colspan="2">NOMBRE</td>
+            </tr>
+            <tr>
+                <td>Linkedin</td>
+                <td><a href="https://www.linkedin.com/feed/?doFeedRefresh=true&nis=true&="><img src="assets/linkedIn_PNG27.png" height="50px"></a></td>
+            </tr>
+            <tr>
+                <td>Facebook</td>
+                <td><a href="https://www.facebook.com/?locale=es_LA"><img src="assets/facebook.png" height="50px"></a></td>
+            </tr>
+        </table>
+    </div>
 </body>
 </html>

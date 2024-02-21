@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+}
+.divi_prin {
+    
+    align-items: center;
+    justify-content: center;
+}
+.img_ho {
+    height: 50px;
+    width: 50px;
+}
